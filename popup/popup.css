@@ -1,0 +1,33 @@
+body {
+  width: max-content;
+  margin: 0;
+  font-size: 1rem;
+  user-select: none;
+}
+
+.popup-title {
+  font-weight: 900;
+  background-color: rgb(208, 58, 138);
+  color: white;
+  width: 100%;
+  padding: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-left: 1rem;
+}
+
+.popup-content {
+  font-family: monospace;
+  padding: 5px;
+}
+
+button {
+  width: 100%;
+}

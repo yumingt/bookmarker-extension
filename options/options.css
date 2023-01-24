@@ -1,0 +1,47 @@
+.replacements {
+  margin: auto;
+}
+
+.add-replacement-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.options-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.options-container input {
+  width: 5rem;
+}
+
+.start,
+.dest {
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+.join {
+  font-style: italic;
+}
+
+.rule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.remove {
+  font-style: italic;
+}
+
+.remove:hover {
+  color: red;
+  cursor: pointer;
+  text-decoration: underline;
+}
